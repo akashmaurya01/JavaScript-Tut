@@ -1,0 +1,9 @@
+console.log("this repal contains code for the Ultimate java script")
+let a = 56 // a contains 56
+console.log(a)
+a = "Akash"
+console.log(a)
+//let 5Akash = 6 // not allowed will throw an error 
+// let var = 7  // keyworad are not use as a identifier beacuse keyword are reserved in javascript
+let c = 6+5/6
+console.log(c)
