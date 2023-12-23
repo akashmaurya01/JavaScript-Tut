@@ -1,0 +1,20 @@
+// N N B B S S U - primitive types
+let a = null;
+let b = 34;
+let c = true; // can be also false
+let d = BigInt(54643) + BigInt(7)
+let e = "Akash"
+let f = Symbol("I am a nice symbol");
+let g; //undefiend
+console.log(a,b,c,d,e,f,g);
+console.log(typeof c);
+
+// Objects in js 
+const item =
+  {
+  "ramesh" : true,
+  "rohan" : false,
+  "akash" : true,
+  "rakesh" :false, 
+}
+console.log(item["rohan"])
