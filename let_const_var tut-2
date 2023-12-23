@@ -1,0 +1,17 @@
+console.log("JavaScript Tutorial 3: var, let, const")
+//var a = 45
+//var a = "p"
+let b = "Akash"
+ b = 5
+const author = "Ram"
+//author = 5 // Throws an error because constant cannot be changed.
+let c = null
+const akash = 0;
+
+let d = 0
+{
+  let b = 'this'
+  console.log(b)
+}
+console.log(b)
+//console.log(author)
