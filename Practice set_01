@@ -1,0 +1,37 @@
+// practice set_01 
+
+//question_01
+let a = "Akash"
+let b = 34
+console.log(a + b)
+
+//question_02
+console.log(typeof (a + b))
+
+//question_03
+const a1 = 
+  {
+    name : "Akash",              // these all reference of a1
+    section : 2,
+    isPrincipal : false,
+  }
+  //a = 45       //Error
+
+//question_04
+  a1['friend'] = "subham" //to add a new key to the object
+  a1['name'] = "Tewar" //can be change a key value
+ 
+console.log(a1)
+  
+//question_05
+const dict =
+{
+  appericate: "reconize the full worth of ",
+   ataraxia: "a satate of freedom from emotional disturbance",
+  yakka: "work, especially hard work."
+
+}
+console.log(dict['appericate'])
+console.log(dict.yakka)
+
+  
